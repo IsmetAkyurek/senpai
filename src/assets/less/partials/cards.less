@@ -1,0 +1,288 @@
+.footer-card {
+  background-color: @colors[darkblue];
+  padding: 40px;
+  display: flex;
+
+  h1 {
+    color: @colors[white];
+    font-size: 16px;
+  }
+
+  p {
+    color: @colors[lightbrown];
+    font-size: 14px;
+  }
+
+  .card-content {
+    padding-left: 55px;
+    position: relative;
+
+    .sp-icon {
+      position: absolute;
+      left: 0;
+      top: 10px;
+    }
+  }
+}
+
+.summary-card {
+  background-color: @colors[darkblue];
+  display: flex;
+  position: relative;
+
+  .bg {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+  }
+
+  .card-btn {
+    position: absolute;
+    right: 5px;
+    color: @colors[darkblue4];
+    background-color: @colors[darkblue];
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: all .3s;
+
+    &.top {
+      top: 5px;
+    }
+
+    &.bottom {
+      bottom: 5px;
+    }
+
+    &:hover {
+      background-color: lighten(@colors[darkblue], 10%);
+      color: lighten(@colors[darkblue4], 10%);
+    }
+  }
+
+  .tier {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  .card-left {
+    width: 140px;
+    padding: 0 20px;
+    z-index: 1;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .hero-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background-color: @colors[darkblue3];
+      width: 50%;
+      height: 40px;
+      line-height: 40px;
+      transition: all .3s;
+
+      &:hover {
+        background-color: lighten(@colors[darkblue3], 10%);
+      }
+    }
+
+
+  }
+
+  .card-right {
+    flex-grow: 100;
+    z-index: 1;
+
+    h1,h2,h3,h4 {
+      margin: 0;
+    }
+
+
+    .info {
+
+      > div {
+        display: inline-block;
+        width: 20%;
+
+        &:last-child {
+          display: inline-flex;
+          align-items: center;
+
+          img {
+            display: block;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.match-history {
+  height: 100%;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, @colors[transparent], #2D3960);
+    pointer-events: none;
+  }
+
+  .match-history-title {
+    background-color: @colors[darkblue];
+    position: relative;
+    padding-left: 30px;
+    height: 55px;
+    line-height: 55px;
+    color: @colors[darkblue4];
+    font-weight: bold;
+
+    .sp-icon {
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      line-height: 1;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .match-history-body {
+    height: calc(100% - 65px);
+    overflow: auto;
+
+
+    .history-row {
+      box-sizing: border-box;
+      height: 90px;
+      margin-bottom: 3px;
+      background-color: #273255;
+      padding: 10px 10px 20px 40px;
+      color: #fff;
+      position: relative;
+      
+      &:nth-child(2n) {
+        background-color: #2D3960;
+      }
+
+      &::before {
+        content:'';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+      }
+
+      &.is-victory {
+        border-left: 5px solid @colors[green];
+        &::before {
+          border-color: transparent transparent transparent @colors[green];
+        }
+      }
+
+      &.is-defeat {
+        border-left: 5px solid @colors[red];
+        &::before {
+          border-color: transparent transparent transparent @colors[red];
+        }
+      }
+
+      .victory-text {
+        position: absolute;
+        left: -5px;
+        transform: rotate(270deg) translateY(-50%);
+        top: 40%;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        &.text-green {
+          left: -10px;
+        }
+      }
+
+      .history-content {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+
+        > div {
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+        .hero-img {
+          display: inline-block;
+          height: 50px;
+        }
+
+        .summoner-spells {
+          display: inline-block;
+          margin-left: 4px;
+
+          img {
+            display: block;
+            height: 23px;
+            &:first-child {
+              margin-bottom:4px;
+            }
+          }
+        }
+
+        .inventory {
+          display: inline-block;
+          width: 96px;
+          font-size: 0;
+
+          img {
+            display: inline-block;
+            height: 22px;
+            border-radius: 5px;
+            margin: 1px;
+          }
+        }
+
+        .teams {
+          color: @colors[lightbrown2];
+          font-size: 8px;
+          white-space: nowrap;
+
+          table {
+            width: 100%;
+
+            td {
+              padding: 0;
+              vertical-align: middle;
+              line-height: 10px;
+            }
+          }
+
+          img {
+            height: 10px;
+          }
+        }
+      }
+    }
+  }
+}

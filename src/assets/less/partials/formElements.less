@@ -1,0 +1,67 @@
+.sp-input {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10px;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 30px;
+  outline: none;
+  border: 1px solid @colors[lightpurple];
+  border-radius: 5px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.floating {
+  position: relative;
+
+  &.inline {
+    display: inline-block;
+  }
+
+  &-input {
+
+    .reveal-icon {
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  label {
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+    left: 11px;
+    transition: all .2s;
+    pointer-events: none;
+    line-height: normal;
+    font-size: @fontSize[normal];
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80%;
+
+    &.focused {
+      font-size: @fontSize[small];
+      top: -6px;
+      background-color: @colors[white];
+      padding: 0 5px;
+    }
+  }
+
+  .character-length {
+    font-size: @fontSize[small];
+    position: absolute;
+    right: 7px;
+    line-height: 1;
+    top: -4px;
+    padding: 0 2px;
+    background-color: @colors[white];
+  }
+}

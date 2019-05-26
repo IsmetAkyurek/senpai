@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+  height: 100%;
+
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to right, @colors[darkblue2], #2D3960);
+
+    #root {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+/* PARTIALS */
+@import './less/partials/variables.less';
+@import './less/partials/globals.less';
+@import './less/partials/formElements.less';
+@import './less/partials/buttons.less';
+@import './less/partials/typography.less';
+@import './less/partials/cards.less';
+@import './less/partials/tabs.less';
+@import './less/partials/charts.less';
+@import './less/partials/custom.less';
+
+/* AUTH */
+@import './less/auth/layout.less';
+
+/* DASHBOARD */
+@import './less/dashboard/layout.less';
+@import './less/dashboard/sider.less';
+@import './less/dashboard/home.less';

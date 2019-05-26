@@ -1,0 +1,705 @@
+{
+  "message": "success",
+  "data": [
+    {
+      "id": 1,
+      "isVictory": true,
+      "hero": "annie",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 14,
+      "deaths": 5,
+      "assists": 7,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "isVictory": false,
+      "hero": "aatrox",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 12,
+      "deaths": 8,
+      "assists": 12,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 3,
+      "isVictory": true,
+      "hero": "ahri",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 6,
+      "deaths": 0,
+      "assists": 8,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 4,
+      "isVictory": false,
+      "hero": "annie",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 18,
+      "deaths": 5,
+      "assists": 6,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 5,
+      "isVictory": true,
+      "hero": "annie",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 14,
+      "deaths": 5,
+      "assists": 7,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 6,
+      "isVictory": true,
+      "hero": "aatrox",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 12,
+      "deaths": 8,
+      "assists": 12,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 7,
+      "isVictory": true,
+      "hero": "ahri",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 6,
+      "deaths": 0,
+      "assists": 8,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 8,
+      "isVictory": false,
+      "hero": "annie",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 18,
+      "deaths": 5,
+      "assists": 6,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 9,
+      "isVictory": true,
+      "hero": "ahri",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 6,
+      "deaths": 0,
+      "assists": 8,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    },
+        {
+      "id": 10,
+      "isVictory": true,
+      "hero": "aatrox",
+      "time": "16 Hours Ago",
+      "length": "31:05",
+      "summonerSpells": [
+        "ignite",
+        "flash"
+      ],
+      "level": 17,
+      "cs": 160,
+      "kills": 12,
+      "deaths": 8,
+      "assists": 12,
+      "kp": 50,
+      "queue": "rankedsolo",
+      "build": [
+        "stalkers-blade",
+        "ninja-tabi",
+        "warding-totem",
+        "spirit-visage",
+        "tiamat",
+        "dorans-blade"
+      ],
+      "team": [
+        {
+          "name": "loremipsum",
+          "character": "aatrox"
+        },
+        {
+          "name": "dolorsit",
+          "character": "ahri"
+        },
+        {
+          "name": "consectetur",
+          "character": "akali"
+        },
+        {
+          "name": "adicisping",
+          "character": "alistar"
+        },
+        {
+          "name": "aletmenat",
+          "character": "amumu"
+        }
+      ],
+      "enemy": [
+        {
+          "name": "loremipsum",
+          "character": "anivia"
+        },
+        {
+          "name": "dolorsit",
+          "character": "annie"
+        },
+        {
+          "name": "consectetur",
+          "character": "aatrox"
+        },
+        {
+          "name": "adicisping",
+          "character": "ahri"
+        },
+        {
+          "name": "aletmenat",
+          "character": "akali"
+        }
+      ]
+    }
+  ]
+}

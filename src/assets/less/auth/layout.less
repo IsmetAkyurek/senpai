@@ -1,0 +1,56 @@
+.auth-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('/static/img/bg.jpg');
+  background-color: @colors[black];
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  .auth-card {
+    background-color: fade(@colors[black], 50%);
+    border: 1px solid @colors[lightpurple];
+    padding: 24px;
+    width: 400px;
+    color: @colors[lightpurple];
+    
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .floating label.focused {
+      background-color: @colors[transparent];
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 2px;
+        top: 6px;
+        background-color: #000A13;
+        z-index: -1;
+        left: 0;
+      }
+    }
+
+    .sp-input {
+      background-color: @colors[transparent];
+      color: @colors[white];
+    }
+  }
+}
+
+@media screen and (max-width: @size[tablet]) {
+  .auth-layout {
+    background-size: cover;
+
+    .auth-card {
+      border: none;
+      background-color: @colors[transparent];
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "senpai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-css": "lessc src/assets/main.less ./src/assets/main.css --js",
+    "watch-css": "less-watch-compiler src/ ./src --enable-js --main-file ./assets/main.less",
+    "start": "npm run watch-css & react-scripts start",
+    "build": "rm -rf build && npm run build-css && react-scripts build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "i18next": "^15.1.2",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-circular-progressbar": "^2.0.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "recharts": "^1.6.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0",
+    "react-scripts": "^3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
